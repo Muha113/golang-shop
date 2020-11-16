@@ -1,0 +1,79 @@
+
+<shop id=1>
+    <name>shop1</name>
+    <url>http://myshop1.com</url>
+    <working_time>
+        <open>08:00:00</open>    
+        <close>23:00:00</close>
+    </working_time>
+    <offers>
+        
+        <item id=7>
+            <name>my name 7</name>
+            <description>html description in psome link</description>
+            <price>3.14</price>
+        </item>
+        
+        <item id=1>
+            <name>my name 1</name>
+            <description>some description in h1</description>
+            <price>8.62</price>
+        </item>
+        
+        <item id=2>
+            <name>my name 2</name>
+            <description>some description in span</description>
+            <price>100.5</price>
+        </item>
+        
+    </offers>
+</shop>
+
+<shop id=2>
+    <name>shop2</name>
+    <url>http://myshop2.com</url>
+    <working_time>
+        <open>12:00:00</open>    
+        <close>23:50:00</close>
+    </working_time>
+    <offers>
+        
+        <item id=6>
+            <name>my name 6</name>
+            <description>my description in h1description in paragraph.</description>
+            <price>2.45</price>
+        </item>
+        
+    </offers>
+</shop>
+
+<shop id=3>
+    <name>shop3</name>
+    <url>http://myshop3.com</url>
+    <working_time>
+        <open>06:00:00</open>    
+        <close>21:30:00</close>
+    </working_time>
+    <offers>
+        
+        <item id=3>
+            <name>my name 3</name>
+            <description>some description in spansome description in p</description>
+            <price>5.7</price>
+        </item>
+        
+        <item id=5>
+            <name>my name 5</name>
+            <description>some description in h3</description>
+            <price>10.3</price>
+        </item>
+        
+        <item id=4>
+            <name>my name 4</name>
+            <description>some description in p</description>
+            <price>9.8</price>
+        </item>
+        
+    </offers>
+</shop>
+

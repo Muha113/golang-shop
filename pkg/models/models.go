@@ -1,8 +1,12 @@
 package models
 
-import "time"
+import (
+	"time"
+)
 
 type Product struct {
+	ID          int
+	ShopID      int
 	Name        string
 	Description string
 	Price       float32

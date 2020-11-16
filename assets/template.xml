@@ -1,0 +1,19 @@
+{{range .Shops}}
+<shop id={{ .ID }}>
+    <name>{{ .Name }}</name>
+    <url>{{ .URL }}</url>
+    <working_time>
+        <open>{{ .Open.Format "15:04:05" }}</open>    
+        <close>{{ .Close.Format "15:04:05" }}</close>
+    </working_time>
+    <offers>
+        {{range .Products}}
+        <item id={{ .ID }}>
+            <name>{{ .Name }}</name>
+            <description>{{ .Description }}</description>
+            <price>{{ .Price }}</price>
+        </item>
+        {{end}}
+    </offers>
+</shop>
+{{end}}

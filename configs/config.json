@@ -1,8 +1,0 @@
-{
-    "db_conn": {
-        "user": "root",
-        "pass": "",
-        "name": "mydb" 
-    }
-    
-}
